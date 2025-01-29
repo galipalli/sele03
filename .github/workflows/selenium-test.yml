@@ -33,7 +33,9 @@ jobs:
         sudo chmod +x /usr/local/bin/chromedriver
         
     - name: Run Tests
-      run: mvn clean test
+      run: mvn clean test -X
+      env:
+        CHROME_OPTIONS: "--headless --no-sandbox --disable-dev-shm-usage --disable-gpu"
       
     - name: Upload Test Results
       if: always()
