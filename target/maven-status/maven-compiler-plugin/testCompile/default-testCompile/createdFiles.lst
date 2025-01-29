@@ -1,0 +1,5 @@
+com/saucedemo/pages/ProductsPage.class
+com/saucedemo/utils/ExtentReportManager.class
+com/saucedemo/utils/WebDriverManager.class
+com/saucedemo/tests/LoginTest.class
+com/saucedemo/pages/LoginPage.class
